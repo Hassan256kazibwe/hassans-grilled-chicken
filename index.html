@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HASSAN'S GRILLED CHICKEN</title>
+    <link rel="stylesheet" href="./style.css?v=3">
+</head>
+<body>
+    <header>
+        <h1>HASSAN'S GRILLED CHICKEN</h1>
+        <P>Fresh Taste, Quality Chicken!</P>
+    </header>
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Our Menu</a>
+        <a href="order.html">Order Now</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to Hassan's Grill!</h2>
+        <p>Enjoy delicious grilled chicken prepared just for you.</p>
+        <p>We serve customers every Saturday and Sunday.</p>
+        <a href="menu.html" class="btn">Explore Our Menu</a>
+    </section>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+         <h2>Welcome to Hassan's Grilled Chicken</h2>
+         <p>Enjoy delicious, freshly prepared Chicken made with passion and quality ingredients.</p>
+         <p>We take orders throughout the week and serve on Saturday and Sunday.</p>
+       <a href="https://wa.me/256741865236?text=Hello%20Hassan's%20Grilled%20Chicken,%20I%20want%20to%20place%20an%20order." class="order-btn" target="_blankl">Order Now</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Hassan's Grilled Chicken is dedicated to serving delicious chicken with quality preparation and excellent customer service.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="images/images (4).jfif" alt="Whole Grilled Chicken">
+            <h3>Whole Chicken</h3>
+            <p>UGX 25,000</p>
+
+        </div>
+        <div class="menu-item">
+            <img src="images/images (8).jfif" alt="Half Chicken">
+            <h3>Half Chicken</h3>
+            <p>UGX 15,000</p>
+
+        </div>
+        <div class="menu-item">
+            <img src="images/images (7).jfif" alt="Chicken Piece">
+            <h3>Chicken Piece</h3>
+            <p>UGX 5,000</p>
+
+        </div>
+    </section>
+    <!--FOOD GALLERY-->
+    <section id="gallery">
+        <h2>Our Chicken Gallery</h2>
+        <p>Freshly grilled and prepared with perfection!</p>
+        <div class="gallery-container">
+            <img src="images/images (1).jfif" alt="Grilled Dry Chicken">
+            <img src="images/images (4).jfif" alt="perfection">
+            <img src="images/images (6).jfif" alt="Dry Juicy Chicken">
+            <img src="images/images (3).jfif" alt="Grilled Chicken">
+            <img src="images/images (2).jfif" alt="Chicken platter">
+            <img src="images/images (5).jfif" alt="Grilled Chicken">
+
+        </div>
+
+    </section>
+    <!--CUSTOMER ORDER FORM-->
+    <Section id="order">
+         <h2>Place Your Order</h2>
+         <p>Fill in your details below.</p>
+         <form id="orderForm">
+            <label>Full Name:</label>
+            <input type="text" id="customerName" placeholder="Enter your name" required>
+            <label>Phone Number:</label>
+            <input type="tel" id="customerPhone" placeholder="Enter your phone" required>
+            <label>Select Chicken</label>
+            <select id="chickenType">
+                <option value="">Select Chicken</option>
+                <option value="Whole Chicken">Whole Chicken</option>
+                <option value="Half Chicken">Half Chicken</option>
+                <option value="Chicken Piece">Chicken Piece</option>
+            </select>
+            <label>Quantity</label>
+            <input type="number" id="quantity" min="1" value="1" required>
+            <label>Delivery Location:</label>
+            <input type="text" id="deliveryLocation" placeholder="Enter your Location" required>
+            <label>Additional Instructions:</label>
+            <textarea id="instructions" placeholder="Any special requests?"></textarea>
+            <P id="totalPrice">Total Price: UGX 0</P>
+            <button type="submit">Submit Order</button>
+
+         </form>
+    </Section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Call: 0741865236</p>
+        <p>Place your orders through WhatsApp.</p>
+            
+    </section>
+     <footer>
+        <p>&copy;2026 Hassan's Grilled Chicken</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
